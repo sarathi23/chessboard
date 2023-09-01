@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <style>
+            .chess-board { border-spacing: 0; border-collapse: collapse; margin-left: auto;margin-right: auto;margin-top: auto;}
+            .chess-board th { padding: .5em; }
+            .chess-board th + th { border-bottom: 1px solid #000; }
+            .chess-board th:first-child,
+            .chess-board td:last-child { border-right: 1px solid #000; }
+            .chess-board tr:last-child td { border-bottom: 1px solid; }
+            .chess-board th:empty { border: none; }
+            .chess-board td { width: 1.5em; height: 1.5em; text-align: center; font-size: 32px; line-height: 0;}
+            .chess-board .brown { background: hsla(0, 92%, 10%, 0.733); }
+            .chess-board .dark { background: #a5a5a5; }
+            .bg{
+                background-image: url("https://www.mpl.live/blog/wp-content/uploads/2021/04/chess-online.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        </style>
+    </head>
+    <body class="bg">
+        <table class="chess-board">
+            <tbody>
+                <tr>
+                    <th></th>
+                    <th>a</th>
+                    <th>b</th>
+                    <th>c</th>
+                    <th>d</th>
+                    <th>e</th>
+                    <th>f</th>
+                    <th>g</th>
+                    <th>h</th>
+                </tr>
+                <tr>
+                    <th>8</th>
+                    <td class="brown">♜</td>
+                    <td class="dark">♞</td>
+                    <td class="brown">♝</td>
+                    <td class="dark">♛</td>
+                    <td class="brown">♚</td>
+                    <td class="dark">♝</td>
+                    <td class="brown">♞</td>
+                    <td class="dark">♜</td>
+                </tr>
+                <tr>
+                    <th>7</th>
+                    <td class="dark">♟</td>
+                    <td class="brown">♟</td>
+                    <td class="dark">♟</td>
+                    <td class="brown">♟</td>
+                    <td class="dark">♟</td>
+                    <td class="brown">♟</td>
+                    <td class="dark">♟</td>
+                    <td class="brown">♟</td>
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <td class="brown"></td>
+                    <td class="dark"></td>
+                    <td class="brown"></td>
+                    <td class="dark"></td>
+                    <td class="brown"></td>
+                    <td class="dark"></td>
+                    <td class="brown"></td>
+                    <td class="dark"></td>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <td class="dark"></td>
+                    <td class="brown"></td>
+                    <td class="dark"></td>
+                    <td class="brown"></td>
+                    <td class="dark"></td>
+                    <td class="brown"></td>
+                    <td class="dark"></td>
+                    <td class="brown"></td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <td class="brown"></td>
+                    <td class="dark"></td>
+                    <td class="brown"></td>
+                    <td class="dark"></td>
+                    <td class="brown"></td>
+                    <td class="dark"></td>
+                    <td class="brown"></td>
+                    <td class="dark"></td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td class="dark"></td>
+                    <td class="brown"></td>
+                    <td class="dark"></td>
+                    <td class="brown"></td>
+                    <td class="dark"></td>
+                    <td class="brown"></td>
+                    <td class="dark"></td>
+                    <td class="brown"></td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td class="brown">♙</td>
+                    <td class="dark">♙</td>
+                    <td class="brown">♙</td>
+                    <td class="dark">♙</td>
+                    <td class="brown">♙</td>
+                    <td class="dark">♙</td>
+                    <td class="brown">♙</td>
+                    <td class="dark">♙</td>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td class="dark">♖</td>
+                    <td class="brown">♘</td>
+                    <td class="dark">♗</td>
+                    <td class="brown">♕</td>
+                    <td class="dark">♔</td>
+                    <td class="brown">♗</td>
+                    <td class="dark">♘</td>
+                    <td class="brown">♖</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
